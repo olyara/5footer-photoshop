@@ -1,0 +1,91 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea, select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.block-footer {
+    background-color: #121116;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.social-part {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social-part .caption {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-part hr {
+    border: 1px solid white;
+    width: 230px;
+}
+
+.social-part .social-logos {
+    margin: 15px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin: 65px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
