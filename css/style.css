@@ -14,6 +14,7 @@ body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
     font-weight: normal;
     margin: 0;
     padding: 0;
+    background-color: #121116;
 }
 
 input, textarea, select {
@@ -48,14 +49,10 @@ h1, h2 {
     margin: 0 auto;
 }
 
-.block-footer {
-    background-color: #121116;
-}
-
 .logo {
     text-align: center;
     padding-top: 120px;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .social-part {
@@ -68,24 +65,23 @@ h1, h2 {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 20px 0;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 18px;
 }
 
-.social-part hr {
-    border: 1px solid white;
+.social-part .line {
     width: 230px;
+    text-align: center;
+    margin-bottom: 18px;
 }
 
 .social-part .social-logos {
-    margin: 15px;
+    margin: 15px 15px 80px 15px;
 }
 
 footer p {
     color: white;
     text-align: center;
-    margin: 65px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    padding-bottom: 40px;
 }
